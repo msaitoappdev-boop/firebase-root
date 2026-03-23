@@ -1,0 +1,13 @@
+{
+  "name": "介護福祉士 毎日3問トレーナー",
+  "short_name": "毎日3問",
+  "start_url": "/apps/caregiver-humanmed",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#00bb77",
+  "background_color": "#ffffff",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

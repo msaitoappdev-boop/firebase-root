@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>アプリ一覧 | 毎日3問トレーナー シリーズ</title>
+  <meta name="description" content="毎日3問から続けられる学習アプリ「毎日3問トレーナー」シリーズの一覧です。" />
+
+  <!-- タブ用 -->
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32.png" />
+
+  <!-- 外部スタイルシート -->
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav aria-label="パンくず">
+      <a href="/">ホーム</a> /
+      <span class="sr-only">現在位置：</span><strong>アプリ一覧</strong>
+    </nav>
+  </header>
+
+  <main>
+    <!-- アプリ一覧（最優先） -->
+    <section>
+      <h1>アプリ一覧</h1>
+      <p class="lead">公開中・準備中の学習アプリです。今後追加予定。</p>
+      <ul id="app-list" class="app-grid" aria-live="polite"></ul>
+      <p id="empty" class="lead" style="display:none;">現在、表示できるアプリがありません。</p>
+    </section>
+
+    <!-- News / お知らせ（アプリ一覧の下） -->
+    <section id="news-section">
+      <h2 class="section-title">News / お知らせ</h2>
+      <ul id="news-list" class="news-list"></ul>
+      <p id="news-empty" class="muted" style="display:none;">現在お知らせはありません。</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <small>© 2026 msaitodev - 毎日3問トレーナー シリーズ</small>
+    <nav class="footer-links" aria-label="フッター">
+      <a href="/privacy-policy.html">プライバシーポリシー</a> |
+      <a href="/terms.html">利用規約</a>
+    </nav>
+  </footer>
+
+  <!-- 外部スクリプト -->
+  <script src="/js/scripts.js"></script>
+</body>
+</html>

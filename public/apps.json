@@ -1,0 +1,23 @@
+[
+  {
+    "id": "caregiver-humanmed",
+    "name": "介護福祉士 毎日3問トレーナー",
+    "path": "/apps/caregiver-humanmed",
+    "desc": "Google Playにて公開中",
+     "color": "#00B774"
+  },
+  {
+    "id": "socialworker-humanmed",
+    "name": "社会福祉士 毎日3問トレーナー",
+    "path": "/apps/socialworker-humanmed",
+    "desc": "Google Playにて公開中",
+    "color": "#1976D2"
+  },
+  {
+    "id": "mentalhealth-socialworker-humanmed",
+    "name": "精神保健福祉士 毎日3問トレーナー",
+    "path": "/apps/mentalhealth-socialworker-humanmed",
+    "desc": "Google Playにて公開中",
+    "color": "#EF6C00"
+  }
+]

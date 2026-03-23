@@ -1,0 +1,149 @@
+/* 精神保健福祉士 毎日3問トレーナー用 カスタムCSS */
+:root {
+  --brand: #EF6C00;
+  --text: #222;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --bg: #fff;
+  --bg-soft: #FFE0B2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+header,
+footer {
+  background: var(--bg-soft);
+  padding: 12px 16px;
+}
+
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h1 {
+  font-size: 1.9rem;
+  margin: 0 0 12px;
+}
+
+.lead {
+  color: var(--muted);
+  margin: 0 0 24px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px 0;
+  background: #fff;
+}
+
+.row {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 900px) {
+  .row {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: var(--brand);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn:hover {
+  filter: brightness(0.95);
+}
+
+ul.features {
+  padding-left: 20px;
+  margin: 12px 0;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+details {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin: 10px 0;
+  background: #fff;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.kicker {
+  display: inline-block;
+  font-size: 12px;
+  color: #EF6C00;
+  background: #FFE0B2;
+  padding: 4px 8px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  margin: 16px 0 8px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  color: #EF6C00;
+  background: #FFE0B2;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-right: 6px;
+}
+
+.hint {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.back {
+  font-size: 14px;
+}
+
+.bullet {
+  margin: 0;
+  padding-left: 20px;
+}
