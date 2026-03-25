@@ -3,30 +3,30 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>介護福祉士 毎日3問トレーナー | 国家試験対策アプリ</title>
-  <meta name="description" content="忙しくても、合格はあきらめない。介護福祉士 国家試験対策アプリ。厳選400問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
 
   <!-- 外部CSSの読み込み -->
   <link rel="stylesheet" href="style.css">
 
   <!-- Canonical -->
-  <link rel="canonical" href="https://msaitodev.com/apps/caregiver-humanmed/" />
+  <link rel="canonical" href="{{canonical}}" />
 
   <!-- タブ用 -->
-  <link rel="icon" type="image/png" sizes="16x16" href="/apps/caregiver-humanmed/icon-16.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/apps/caregiver-humanmed/icon-32.png" />
-  <link rel="apple-touch-icon" href="/apps/caregiver-humanmed/icon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{icon16}}" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{icon32}}" />
+  <link rel="apple-touch-icon" href="{{icon32}}" />
 
   <!-- PWAマニフェスト -->
   <link rel="manifest" href="/manifest.webmanifest" />
-  <meta name="theme-color" content="#00bb77" />
+  <meta name="theme-color" content="{{themeColor}}" />
 
   <!-- OGP -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="介護福祉士 毎日3問トレーナー | 厳選400問・学習分析機能" />
-  <meta property="og:description" content="1日3問で無理なく継続。厳選400問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。" />
-  <meta property="og:url" content="https://msaitodev.com/apps/caregiver-humanmed/" />
-  <meta property="og:image" content="https://msaitodev.com/ogp.png" />
+  <meta property="og:title" content="{{ogTitle}}" />
+  <meta property="og:description" content="{{ogDescription}}" />
+  <meta property="og:url" content="{{ogUrl}}" />
+  <meta property="og:image" content="{{ogImage}}" />
 
   <!-- 構造化データ（FAQ完全版） -->
   <script type="application/ld+json">{
@@ -44,21 +44,20 @@
 <body>
   <header>
     <nav class="back" aria-label="パンくず">
-      <a href="/">ホーム</a> / <a href="/apps">アプリ一覧</a> / <span class="muted">介護福祉士 毎日3問トレーナー</span>
+      <a href="/">ホーム</a> / <a href="/apps">アプリ一覧</a> / <span class="muted">{{name}}</span>
     </nav>
   </header>
 
   <main>
     <span class="kicker">国家試験対策・最新版</span>
-    <h1>介護福祉士 毎日3問トレーナー</h1>
-    <p class="lead">400問の厳選演習と高度な分析機能。
-忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。</p>
+    <h1>{{name}}</h1>
+    <p class="lead">{{lead}}</p>
 
     <div class="row">
       <section class="card" aria-label="機能説明">
         <h2 class="section-title">このアプリでできること</h2>
         <ul class="features">
-          <li><span class="badge">厳選400問</span> 全5分野（人間と社会／介護／こころとからだ／医療的ケア／総合問題）を網羅。</li>
+          <li><span class="badge">{{featureQuestions}}</span> 全5分野（{{featureFields}}）を網羅。</li>
           <li><span class="badge">プレミアム学習分析</span> レーダーチャートで弱点を可視化。本試験の推定スコアを算出。</li>
           <li><span class="badge">弱点特訓モード</span> 過去の間違いをAIが分析し、重点的に復習。効率的な知識定着をサポート。</li>
           <li><span class="badge">集中できる環境</span> 学習画面にバナー広告は一切なし。プレミアムプランなら広告は完全非表示。</li>
@@ -93,12 +92,12 @@
         <h2 class="section-title">料金</h2>
         <p class="price">月額 ¥200 <span class="muted">（税込）</span></p>
         <ul class="features">
-          <li>厳選400問・全機能解放</li>
+          <li>{{featureQuestions}}・全機能解放</li>
           <li>追加課金なし／解約自由</li>
           <li><a href="/privacy-policy.html">プライバシーポリシー</a></li>
         </ul>
 
-        <a class="btn" href="https://play.google.com/store/apps/details?id=com.msaitodev.caregiver.humanmed">Google Play で入手</a>
+        <a class="btn" href="{{playStoreUrl}}">Google Play で入手</a>
         <p class="hint" style="margin-top:8px;">※ Android 9.0 (API 28) 以上対応</p>
 
         <hr style="border:none;border-top:1px solid var(--border);margin:16px 0;" />
@@ -114,7 +113,7 @@
   </main>
 
   <footer>
-    <small>© 2026 介護福祉士 毎日3問トレーナー (msaitodev.com)</small>
+    <small>{{footerText}}</small>
   </footer>
 </body>
 </html>
