@@ -12,7 +12,7 @@ async function loadApps() {
       return;
     }
     ul.innerHTML = apps.map(a => `
-      <li>
+      <li style="border-color: ${a.color || '#e5e7eb'}; background-color: rgba(${hexToRgb(a.color || '#0b7')}, 0.04);">
         <div>
           <a href="${a.path || '#'}" style="color: ${a.color || '#222'};">
             ${a.name || '(no name)'}
@@ -24,6 +24,14 @@ async function loadApps() {
   } catch (e) {
     empty.style.display = 'block';
   }
+}
+
+/**
+ * 16進数カラーを RGB に変換
+ */
+function hexToRgb(hex) {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? `${parseInt(result[1], 16)}, ${parseInt(result[2], 16)}, ${parseInt(result[3], 16)}` : '11, 119, 119';
 }
 
 /**
