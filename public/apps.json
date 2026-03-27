@@ -4,12 +4,12 @@
     "name": "介護福祉士 毎日3問トレーナー",
     "path": "/apps/caregiver-humanmed",
     "desc": "Google Playにて公開中",
-    "color": "#00B774",
+    "color": "#4CAF50",
     "meta": {
       "title": "介護福祉士 毎日3問トレーナー | 国家試験対策アプリ",
       "description": "忙しくても、合格はあきらめない。介護福祉士 国家試験対策アプリ。厳選400問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
       "canonical": "https://msaitodev.com/apps/caregiver-humanmed/",
-      "themeColor": "#00bb77",
+      "themeColor": "#4CAF50",
       "ogTitle": "介護福祉士 毎日3問トレーナー | 厳選400問・学習分析機能",
       "ogDescription": "1日3問で無理なく継続。厳選400問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
       "ogUrl": "https://msaitodev.com/apps/caregiver-humanmed/",
@@ -23,8 +23,8 @@
       "footerText": "© 2026 介護福祉士 毎日3問トレーナー (msaitodev.com)"
     },
     "style": {
-      "brand": "#0b7",
-      "bgSoft": "#f6fbf7"
+      "brand": "#4CAF50",
+      "bgSoft": "#B9F6CA"
     }
   },
   {
@@ -52,7 +52,7 @@
     },
     "style": {
       "brand": "#1976d2",
-      "bgSoft": "#e3f2fd"
+      "bgSoft": "#90CAF9"
     }
   },
   {
@@ -87,7 +87,7 @@
     "id": "healthsupervisor-humanmed",
     "name": "第一種衛生管理者 毎日3問トレーナー",
     "path": "/apps/healthsupervisor-humanmed",
-    "desc": "準備中",
+    "desc": "Google Playにて公開中",
     "color": "#1A237E",
     "meta": {
       "title": "第一種衛生管理者 毎日3問トレーナー | 国家試験対策アプリ",
@@ -108,7 +108,7 @@
     },
     "style": {
       "brand": "#1A237E",
-      "bgSoft": "#d7daf0"
+      "bgSoft": "#5C6BC0"
     }
   },
   {
@@ -130,13 +130,13 @@
     "page": {
       "lead": "300問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
       "featureQuestions": "厳選300問",
-      "featureFields": "労働衛生一般／労働衛生管理／作業環境管理／健康管理／関係法令",
+      "featureFields": "医薬品に共通する特性と基本的な知識／人体の働きと医薬品／主な医薬品とその作用／薬事関係法規・制度／医薬品の適正使用・安全対策",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.msaitodev.salesclerk.humanmed",
       "footerText": "© 2026 登録販売者 毎日3問トレーナー (msaitodev.com)"
     },
     "style": {
       "brand": "#005FB8",
-      "bgSoft": "#d7daf0"
+      "bgSoft": "#FF9800"
     }
   }
 ]
