@@ -19,7 +19,7 @@
 
   <!-- PWAマニフェスト -->
   <link rel="manifest" href="/manifest.webmanifest" />
-  <meta name="theme-color" content="#4CAF50" />
+  <meta name="theme-color" content="#00B774" />
 
   <!-- OGP -->
   <meta property="og:type" content="website" />
