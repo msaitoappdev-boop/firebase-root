@@ -7,7 +7,15 @@
   --bg-soft: #f6fbf7;
 }
 
-* { box-sizing: border-box; }
+* {
+   box-sizing: border-box;
+  }
+
+/* 画像の基本レスポンシブ設定 */
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 body {
   margin: 0;
@@ -42,14 +50,17 @@ main {
   margin: -32px -16px 32px;
   color: #fff;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 200px;
 }
 
 .hero-content {
-  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap; /* 狭い画面で折り返す */
+  gap: 24px;
+  width: 100%;
+  max-width: 960px;
 }
 
 .hero-title {
@@ -59,15 +70,65 @@ main {
   line-height: 1.2;
 }
 
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.hero-visual-gallery {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.screenshot-container {
+  position: relative;
+  width: 240px; /* CSSでサイズを一括管理 */
+}
+
+.app-screenshot.main {
+  width: 90%;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.app-screenshot.sub {
+  position: absolute;
+  width: 70%;
+  bottom: -20px;
+  right: -90px;
+  border: 4px solid #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* 特徴紹介のレイアウト */
+.feature-item-detail {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.feature-item-detail.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-img {
+  max-width: 240px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--border);
+}
+
 .hero-subtitle {
   font-size: 1.05rem;
   margin: 0 0 24px;
   padding: 0 12px;
   opacity: 0.9;
   line-height: 1.5;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .hero-cta {
@@ -99,8 +160,12 @@ main {
     font-size: 1.4rem;
   }
 
-  .hero-subtitle {
-    display: none;
+  .hero-text {
+    text-align: center;
+  }
+
+  .screenshot-container {
+    margin-bottom: 40px;
   }
 
   .hero-cta {
@@ -125,7 +190,7 @@ h1 { font-size: 1.75rem; margin: 0 0 12px; }
 .app-grid {
   list-style: none; padding: 0; margin: 0;
   display: grid; gap: 16px;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .app-grid li {
