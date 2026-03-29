@@ -23,10 +23,16 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ItemList",
+    "@type": "SoftwareApplication",
+    "name": "毎日3問トレーナー シリーズ",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Android",
     "itemListElement": [
       { "@type": "SoftwareApplication", "name": "介護福祉士 毎日3問トレーナー", "url": "https://msaitodev.com/apps/caregiver-humanmed/", "applicationCategory": "EducationalApplication" },
-      { "@type": "SoftwareApplication", "name": "社会福祉士 毎日3問トレーナー", "url": "https://msaitodev.com/apps/socialworker-humanmed/", "applicationCategory": "EducationalApplication" }
+      { "@type": "SoftwareApplication", "name": "社会福祉士 毎日3問トレーナー", "url": "https://msaitodev.com/apps/socialworker-humanmed/", "applicationCategory": "EducationalApplication" },
+      { "@type": "SoftwareApplication", "name": "精神保健福祉士 毎日3問トレーナー", "url": "https://msaitodev.com/apps/mentalhealth-socialworker-humanmed/", "applicationCategory": "EducationalApplication" },
+      { "@type": "SoftwareApplication", "name": "第一種衛生管理者 毎日3問トレーナー", "url": "https://msaitodev.com/apps/healthsupervisor-humanmed/", "applicationCategory": "EducationalApplication" },
+      { "@type": "SoftwareApplication", "name": "登録販売者 毎日3問トレーナー", "url": "https://msaitodev.com/apps/salesclerk-humanmed/", "applicationCategory": "EducationalApplication" }
     ]
   }
   </script>
@@ -36,9 +42,12 @@
 </head>
 <body>
   <header>
-    <nav aria-label="パンくず">
-      <a href="/">ホーム</a> /
-      <span class="sr-only">現在位置：</span><strong>アプリ一覧</strong>
+    <nav aria-label="Breadcrumb">
+      <ol style="list-style: none; display: flex; padding: 0; margin: 0; font-size: 0.9rem;">
+        <li><a href="/" style="color: var(--text); text-decoration: none;">ホーム</a></li>
+        <li style="margin: 0 8px; color: var(--muted);">/</li>
+        <li aria-current="page"><strong>アプリ一覧</strong></li>
+      </ol>
     </nav>
   </header>
 
@@ -53,8 +62,8 @@
         </div>
         <div class="hero-visual-gallery">
           <div class="screenshot-container">
-            <img src="/images/home.png" alt="毎日3問トレーナーの学習メイン画面" class="app-screenshot main" loading="lazy">
-            <img src="/images/analytics1.png" alt="学習履歴と統計の画面" class="app-screenshot sub" loading="lazy">
+            <img src="/images/home.webp" alt="毎日3問トレーナーの学習メイン画面" class="app-screenshot main" fetchpriority="high">
+            <img src="/images/analytics1.webp" alt="学習履歴と統計の画面" class="app-screenshot sub" loading="lazy">
           </div>
         </div>
       </div>
@@ -68,21 +77,21 @@
           <h3>① 迷わないシンプルな学習</h3>
           <p>毎日3問だけ。今日やるべきことが明確だから、迷わず学習をスタートできます。</p>
         </div>
-        <img src="/images/quiz.png" alt="実際のクイズ解答画面" class="feature-img" loading="lazy">
+        <img src="/images/quiz.webp" alt="実際のクイズ解答画面" class="feature-img" loading="lazy">
       </div>
       <div class="feature-item-detail reverse">
         <div class="feature-desc">
           <h3>② グラフで成長を実感</h3>
           <p>学習データの分析機能を搭載。苦手分野が一目で分かり、効率的な対策が可能です。</p>
         </div>
-        <img src="/images/analytics2.png" alt="学習進捗の分析グラフ画面" class="feature-img" loading="lazy">
+        <img src="/images/analytics2.webp" alt="学習進捗の分析グラフ画面" class="feature-img" loading="lazy">
       </div>
       <div class="feature-item-detail">
         <div class="feature-desc">
           <h3>③ 試験合格までの道筋</h3>
           <p>本試験の推定スコアを算出。次に学習するべき分野を提案し、効果的な学習が可能です。</p>
         </div>
-        <img src="/images/analytics1.png" alt="学習進捗の分析グラフ画面" class="feature-img" loading="lazy">
+        <img src="/images/analytics1.webp" alt="学習進捗の分析グラフ画面" class="feature-img" loading="lazy">
       </div>
     </section>
 
