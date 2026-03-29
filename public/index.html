@@ -3,12 +3,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>アプリ一覧 | 毎日3問トレーナー シリーズ</title>
+  <title>毎日3問トレーナー シリーズ | アプリ一覧</title>
   <meta name="description" content="毎日3問から続けられる学習アプリ「毎日3問トレーナー」シリーズの一覧です。" />
+  <link rel="canonical" href="https://msaitodev.com/">
+
+  <!-- OGP / Social Media -->
+  <meta property="og:title" content="毎日3問トレーナー シリーズ">
+  <meta property="og:description" content="忙しい毎日でもスキマ時間で合格へ。1日3問の積み重ねを。">
+  <meta property="og:url" content="https://msaitodev.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://msaitodev.com/images/ogp.png">
+  <meta name="twitter:card" content="summary_large_image">
 
   <!-- タブ用 -->
   <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32.png" />
+
+  <!-- 構造化データ: 検索エンジンにアプリ情報を伝える -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      { "@type": "SoftwareApplication", "name": "介護福祉士 毎日3問トレーナー", "url": "https://msaitodev.com/apps/caregiver-humanmed/", "applicationCategory": "EducationalApplication" },
+      { "@type": "SoftwareApplication", "name": "社会福祉士 毎日3問トレーナー", "url": "https://msaitodev.com/apps/socialworker-humanmed/", "applicationCategory": "EducationalApplication" }
+    ]
+  }
+  </script>
 
   <!-- 外部スタイルシート -->
   <link rel="stylesheet" href="/css/styles.css" />
@@ -66,10 +87,20 @@
     </section>
 
     <!-- アプリ一覧（最優先） -->
-    <section>
-      <h1>アプリ一覧</h1>
+    <section id="app-list-section">
+      <h2 id="app-list-heading">アプリ一覧</h2>
       <p class="lead">公開中・準備中の学習アプリです。今後追加予定。</p>
-      <ul id="app-list" class="app-grid" aria-live="polite"></ul>
+      
+      <!-- JSによる動的生成の前の静的なリンク（SEO対策） -->
+      <div class="static-app-links sr-only">
+        <a href="/apps/caregiver-humanmed/">介護福祉士</a>
+        <a href="/apps/socialworker-humanmed/">社会福祉士</a>
+        <a href="/apps/mentalhealth-socialworker-humanmed/">精神保健福祉士</a>
+        <a href="/apps/healthsupervisor-humanmed/">衛生管理者</a>
+        <a href="/apps/salesclerk-humanmed/">登録販売者</a>
+      </div>
+
+      <ul id="app-list" class="app-grid" aria-live="polite" aria-labelledby="app-list-heading"></ul>
       <p id="empty" class="lead" style="display:none;">現在、表示できるアプリがありません。</p>
     </section>
 

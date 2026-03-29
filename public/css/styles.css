@@ -5,6 +5,8 @@
   --border: #e5e7eb;
   --bg: #fff;
   --bg-soft: #f6fbf7;
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 * {
@@ -44,13 +46,14 @@ main {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, var(--brand), #00a368, #00b780);
-  border-radius: 12px;
-  padding: 32px 32px;
+  background: radial-gradient(circle at 0% 0%, rgba(11, 119, 0, 0.15) 0%, transparent 50%),
+              linear-gradient(135deg, var(--brand) 0%, #00895a 100%);
+  border-radius: 24px;
+  padding: 64px 32px;
   margin: -32px -16px 32px;
   color: #fff;
   text-align: center;
-  min-height: 200px;
+  overflow: hidden;
 }
 
 .hero-content {
@@ -64,8 +67,8 @@ main {
 }
 
 .hero-title {
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 800;
   margin: 0 0 12px;
   line-height: 1.2;
 }
@@ -140,13 +143,16 @@ main {
   font-weight: 600;
   font-size: 0.95rem;
   text-decoration: none;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
 }
 
 .hero-cta:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  background: var(--bg-soft);
+  color: #00895a;
 }
 
 @media (max-width: 768px) {
@@ -188,23 +194,40 @@ h1 { font-size: 1.75rem; margin: 0 0 12px; }
 
 /* App List (Grid) */
 .app-grid {
-  list-style: none; padding: 0; margin: 0;
-  display: grid; gap: 16px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-auto-flow: dense;
 }
 
 .app-grid li {
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 20px;
-  display: flex; flex-direction: column; gap: 8px;
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   background: #fff;
-  transition: transform 0.2s, border-color 0.2s;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: var(--card-shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Bento Grid Specific: Make some cards larger on desktop */
+@media (min-width: 960px) {
+  .app-grid li:nth-child(3n+1) {
+    grid-column: span 2;
+  }
 }
 
 .app-grid li:hover {
-  transform: translateY(-2px);
+  transform: translateY(-8px) scale(1.02);
   border-color: var(--brand);
+  box-shadow: var(--card-shadow-hover);
 }
 
 .app-grid a {
