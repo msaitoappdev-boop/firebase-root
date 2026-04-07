@@ -7,17 +7,17 @@
     "color": "#4CAF50",
     "meta": {
       "title": "介護福祉士 毎日3問トレーナー | 国家試験対策アプリ",
-      "description": "忙しくても、合格はあきらめない。介護福祉士 国家試験対策アプリ。厳選400問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
+      "description": "忙しくても、合格はあきらめない。介護福祉士 国家試験対策アプリ。厳選500問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
       "canonical": "https://msaitodev.com/apps/caregiver-humanmed/",
       "themeColor": "#4CAF50",
-      "ogTitle": "介護福祉士 毎日3問トレーナー | 厳選400問・学習分析機能",
-      "ogDescription": "1日3問で無理なく継続。厳選400問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
+      "ogTitle": "介護福祉士 毎日3問トレーナー | 厳選500問・学習分析機能",
+      "ogDescription": "1日3問で無理なく継続。厳選500問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
       "ogUrl": "https://msaitodev.com/apps/caregiver-humanmed/",
       "ogImage": "https://msaitodev.com/ogp.png"
     },
     "page": {
-      "lead": "400問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
-      "featureQuestions": "厳選400問",
+      "lead": "500問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
+      "featureQuestions": "厳選500問",
       "featureFields": "人間と社会／介護／こころとからだ／医療的ケア／総合問題",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.msaitodev.caregiver.humanmed",
       "footerText": "© 2026 介護福祉士 毎日3問トレーナー (msaitodev.com)"
@@ -35,17 +35,17 @@
     "color": "#1976D2",
     "meta": {
       "title": "社会福祉士 毎日3問トレーナー | 国家試験対策アプリ",
-      "description": "忙しくても、合格はあきらめない。社会福祉士 国家試験対策アプリ。厳選400問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
+      "description": "忙しくても、合格はあきらめない。社会福祉士 国家試験対策アプリ。厳選500問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
       "canonical": "https://msaitodev.com/apps/socialworker-humanmed/",
       "themeColor": "#1976D2",
-      "ogTitle": "社会福祉士 毎日3問トレーナー | 厳選400問・学習分析機能",
-      "ogDescription": "1日3問で無理なく継続。厳選400問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
+      "ogTitle": "社会福祉士 毎日3問トレーナー | 厳選500問・学習分析機能",
+      "ogDescription": "1日3問で無理なく継続。厳選500問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
       "ogUrl": "https://msaitodev.com/apps/socialworker-humanmed/",
       "ogImage": "https://msaitodev.com/ogp.png"
     },
     "page": {
-      "lead": "400問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
-      "featureQuestions": "厳選400問",
+      "lead": "500問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
+      "featureQuestions": "厳選500問",
       "featureFields": "人・社会／福祉／権利・制度・基盤／相談援助の理論と方法／各対象者向けサービス／総合問題",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.msaitodev.socialworker.humanmed",
       "footerText": "© 2026 社会福祉士 毎日3問トレーナー (msaitodev.com)"
@@ -63,17 +63,17 @@
     "color": "#EF6C00",
     "meta": {
       "title": "精神保健福祉士 毎日3問トレーナー | 国家試験対策アプリ",
-      "description": "忙しくても、合格はあきらめない。精神保健福祉士 国家試験対策アプリ。厳選400問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
+      "description": "忙しくても、合格はあきらめない。精神保健福祉士 国家試験対策アプリ。厳選500問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
       "canonical": "https://msaitodev.com/apps/mentalhealth-socialworker-humanmed/",
       "themeColor": "#EF6C00",
-      "ogTitle": "精神保健福祉士 毎日3問トレーナー | 厳選400問・学習分析機能",
-      "ogDescription": "1日3問で無理なく継続。厳選400問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
+      "ogTitle": "精神保健福祉士 毎日3問トレーナー | 厳選500問・学習分析機能",
+      "ogDescription": "1日3問で無理なく継続。厳選500問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
       "ogUrl": "https://msaitodev.com/apps/mentalhealth-socialworker-humanmed/",
       "ogImage": "https://msaitodev.com/ogp.png"
     },
     "page": {
-      "lead": "400問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
-      "featureQuestions": "厳選400問",
+      "lead": "500問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
+      "featureQuestions": "厳選500問",
       "featureFields": "精神疾患とその治療／精神保健の課題と支援／精神保健福祉の相談援助／制度・サービスと生活支援／総合問題",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.msaitodev.mhsw.humanmed",
       "footerText": "© 2026 精神保健福祉士 毎日3問トレーナー (msaitodev.com)"
@@ -91,17 +91,17 @@
     "color": "#1A237E",
     "meta": {
       "title": "第一種衛生管理者 毎日3問トレーナー | 国家試験対策アプリ",
-      "description": "忙しくても、合格はあきらめない。第一種衛生管理者 国家試験対策アプリ。厳選300問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
+      "description": "忙しくても、合格はあきらめない。第一種衛生管理者 国家試験対策アプリ。厳選400問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
       "canonical": "https://msaitodev.com/apps/healthsupervisor-humanmed/",
       "themeColor": "#1A237E",
-      "ogTitle": "第一種衛生管理者 毎日3問トレーナー | 厳選300問・学習分析機能",
-      "ogDescription": "1日3問で無理なく継続。厳選300問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
+      "ogTitle": "第一種衛生管理者 毎日3問トレーナー | 厳選400問・学習分析機能",
+      "ogDescription": "1日3問で無理なく継続。厳選400問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
       "ogUrl": "https://msaitodev.com/apps/healthsupervisor-humanmed/",
       "ogImage": "https://msaitodev.com/ogp.png"
     },
     "page": {
-      "lead": "300問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
-      "featureQuestions": "厳選300問",
+      "lead": "400問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
+      "featureQuestions": "厳選400問",
       "featureFields": "労働衛生一般／労働衛生管理／作業環境管理／健康管理／関係法令",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.msaitodev.healthsupervisor.humanmed",
       "footerText": "© 2026 第一種衛生管理者 毎日3問トレーナー (msaitodev.com)"
@@ -119,17 +119,17 @@
     "color": "#005FB8",
     "meta": {
       "title": "登録販売者 毎日3問トレーナー | 国家試験対策アプリ",
-      "description": "忙しくても、合格はあきらめない。登録販売者 国家試験対策アプリ。厳選300問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
+      "description": "忙しくても、合格はあきらめない。登録販売者 国家試験対策アプリ。厳選400問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
       "canonical": "https://msaitodev.com/apps/salesclerk-humanmed/",
       "themeColor": "#005FB8",
-      "ogTitle": "登録販売者 毎日3問トレーナー | 厳選300問・学習分析機能",
-      "ogDescription": "1日3問で無理なく継続。厳選300問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
+      "ogTitle": "登録販売者 毎日3問トレーナー | 厳選400問・学習分析機能",
+      "ogDescription": "1日3問で無理なく継続。厳選400問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
       "ogUrl": "https://msaitodev.com/apps/salesclerk-humanmed/",
       "ogImage": "https://msaitodev.com/ogp.png"
     },
     "page": {
-      "lead": "300問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
-      "featureQuestions": "厳選300問",
+      "lead": "400問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
+      "featureQuestions": "厳選400問",
       "featureFields": "医薬品に共通する特性と基本的な知識／人体の働きと医薬品／主な医薬品とその作用／薬事関係法規・制度／医薬品の適正使用・安全対策",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.msaitodev.salesclerk.humanmed",
       "footerText": "© 2026 登録販売者 毎日3問トレーナー (msaitodev.com)"
