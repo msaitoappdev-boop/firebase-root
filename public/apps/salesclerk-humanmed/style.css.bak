@@ -4,7 +4,7 @@
   --muted: #6b7280;
   --border: #e5e7eb;
   --bg: #fff;
-  --bg-soft: #4FC3F7;
+  --bg-soft: #FF9800;
 }
 
 * {
