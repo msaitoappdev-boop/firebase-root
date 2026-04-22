@@ -139,4 +139,62 @@
       "bgSoft": "#FF9800"
     }
   }
+,
+  {
+    "id": "cargo-opm-workpro",
+    "name": "運行管理者（貨物） 毎日3問トレーナー",
+    "path": "/apps/cargo-opm-workpro",
+    "desc": "Google Playにて公開中",
+    "color": "#2E7D32",
+    "meta": {
+      "title": "運行管理者（貨物） 毎日3問トレーナー | 国家試験対策アプリ",
+      "description": "忙しくても、合格はあきらめない。運行管理者（貨物） 国家試験対策アプリ。厳選500問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
+      "canonical": "https://msaitodev.com/apps/cargo-opm-workpro/",
+      "themeColor": "#2E7D32",
+      "ogTitle": "運行管理者（貨物） 毎日3問トレーナー | 厳選500問・学習分析機能",
+      "ogDescription": "1日3問で無理なく継続。厳選500問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
+      "ogUrl": "https://msaitodev.com/apps/cargo-opm-workpro/",
+      "ogImage": "https://msaitodev.com/ogp.png"
+    },
+    "page": {
+      "lead": "500問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
+      "featureQuestions": "厳選500問",
+      "featureFields": "貨物自動車運送事業法／道路運送車両法／道路交通法／労働基準法／実務上の知識及び能力",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.msaitodev.cargo.opm.workpro",
+      "footerText": "© 2026 運行管理者（貨物） 毎日3問トレーナー (msaitodev.com)"
+    },
+    "style": {
+      "brand": "#2E7D32",
+      "bgSoft": "#388E3C"
+    }
+  }
+,
+  {
+    "id": "passenger-opm-workpro",
+    "name": "運行管理者（旅客） 毎日3問トレーナー",
+    "path": "/apps/passenger-opm-workpro",
+    "desc": "Google Playにて公開中",
+    "color": "#880E4F",
+    "meta": {
+      "title": "運行管理者（旅客） 毎日3問トレーナー | 国家試験対策アプリ",
+      "description": "忙しくても、合格はあきらめない。運行管理者（旅客） 国家試験対策アプリ。厳選500問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。",
+      "canonical": "https://msaitodev.com/apps/passenger-opm-workpro/",
+      "themeColor": "#880E4F",
+      "ogTitle": "運行管理者（旅客） 毎日3問トレーナー | 厳選500問・学習分析機能",
+      "ogDescription": "1日3問で無理なく継続。厳選500問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。",
+      "ogUrl": "https://msaitodev.com/apps/passenger-opm-workpro/",
+      "ogImage": "https://msaitodev.com/ogp.png"
+    },
+    "page": {
+      "lead": "500問の厳選演習と高度な分析機能。\n忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。",
+      "featureQuestions": "厳選500問",
+      "featureFields": "道路運送法／道路運送車両法／道路交通法／労働基準法／実務上の知識及び能力",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.msaitodev.passenger.opm.workpro",
+      "footerText": "© 2026 運行管理者（旅客） 毎日3問トレーナー (msaitodev.com)"
+    },
+    "style": {
+      "brand": "#880E4F",
+      "bgSoft": "#FFC107"
+    }
+  }
 ]

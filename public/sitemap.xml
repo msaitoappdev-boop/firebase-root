@@ -37,6 +37,18 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://msaitodev.com/apps/cargo-opm-workpro/</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://msaitodev.com/apps/passenger-opm-workpro/</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://msaitodev.com/privacy-policy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
