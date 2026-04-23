@@ -13,29 +13,29 @@
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>精神保健福祉士 毎日3問トレーナー | 国家試験対策アプリ</title>
-  <meta name="description" content="忙しくても、合格はあきらめない。精神保健福祉士 国家試験対策アプリ。厳選500問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。">
+  <title>運行管理者（貨物） 毎日3問トレーナー | 国家試験対策アプリ</title>
+  <meta name="description" content="忙しくても、合格はあきらめない。運行管理者（貨物） 国家試験対策アプリ。厳選500問・全5分野を網羅。詳細な学習分析と弱点特訓機能で効率的に合格を目指せます。月額¥200・いつでも解約OK。">
 
   <!-- 外部CSSの読み込み -->
   <link rel="stylesheet" href="style.css">
 
   <!-- Canonical -->
-  <link rel="canonical" href="https://msaitodev.com/apps/mentalhealth-socialworker-humanmed/" />
+  <link rel="canonical" href="https://msaitodev.com/apps/cargo-opm-workpro/" />
 
   <!-- タブ用 -->
-  <link rel="icon" type="image/png" sizes="16x16" href="/apps/mentalhealth-socialworker-humanmed/icon-16.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/apps/mentalhealth-socialworker-humanmed/icon-32.png" />
-  <link rel="apple-touch-icon" href="/apps/mentalhealth-socialworker-humanmed/icon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/apps/cargo-opm-workpro/icon-16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/apps/cargo-opm-workpro/icon-32.png" />
+  <link rel="apple-touch-icon" href="/apps/cargo-opm-workpro/icon-32.png" />
 
   <!-- PWAマニフェスト -->
   <link rel="manifest" href="/manifest.webmanifest" />
-  <meta name="theme-color" content="#EF6C00" />
+  <meta name="theme-color" content="#2E7D32" />
 
   <!-- OGP -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="精神保健福祉士 毎日3問トレーナー | 厳選500問・学習分析機能" />
+  <meta property="og:title" content="運行管理者（貨物） 毎日3問トレーナー | 厳選500問・学習分析機能" />
   <meta property="og:description" content="1日3問で無理なく継続。厳選500問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。" />
-  <meta property="og:url" content="https://msaitodev.com/apps/mentalhealth-socialworker-humanmed/" />
+  <meta property="og:url" content="https://msaitodev.com/apps/cargo-opm-workpro/" />
   <meta property="og:image" content="https://msaitodev.com/ogp.png" />
 
   <!-- 構造化データ（FAQ完全版） -->
@@ -54,13 +54,13 @@
 <body>
   <header>
     <nav class="back" aria-label="パンくず">
-      <a href="/">ホーム</a> / <a href="/apps">アプリ一覧</a> / <span class="muted">精神保健福祉士 毎日3問トレーナー</span>
+      <a href="/">ホーム</a> / <a href="/apps">アプリ一覧</a> / <span class="muted">運行管理者（貨物） 毎日3問トレーナー</span>
     </nav>
   </header>
 
   <main>
     <span class="kicker">国家試験対策・最新版</span>
-    <h1>精神保健福祉士 毎日3問トレーナー</h1>
+    <h1>運行管理者（貨物） 毎日3問トレーナー</h1>
     <p class="lead">500問の厳選演習と高度な分析機能。
 忙しい毎日でも、1日3問の積み重ねが合格を引き寄せます。</p>
 
@@ -68,7 +68,7 @@
       <section class="card" aria-label="機能説明">
         <h2 class="section-title">このアプリでできること</h2>
         <ul class="features">
-          <li><span class="badge">厳選500問</span> 全5分野（精神疾患とその治療／精神保健の課題と支援／精神保健福祉の相談援助／制度・サービスと生活支援／総合問題）を網羅。</li>
+          <li><span class="badge">厳選500問</span> 全5分野（貨物自動車運送事業法／道路運送車両法／道路交通法／労働基準法／実務上の知識及び能力）を網羅。</li>
           <li><span class="badge">学習分析</span> レーダーチャートで弱点を可視化。本試験の推定スコアを算出。</li>
           <li><span class="badge">弱点特訓モード</span> 過去の間違いをAIが分析し、重点的に復習。効率的な知識定着をサポート。</li>
           <li><span class="badge">集中できる環境</span> 学習画面にバナー広告は一切なし。プレミアムプランなら広告は完全非表示。</li>
@@ -108,7 +108,7 @@
           <li><a href="/privacy-policy.html">プライバシーポリシー</a></li>
         </ul>
 
-        <a class="btn" href="https://play.google.com/store/apps/details?id=com.msaitodev.mhsw.humanmed&referrer=utm_source%3Dmsaitodev_hub%26utm_medium%3Dweb_button">Google Play で入手</a>
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.msaitodev.cargo.opm.workpro">Google Play で入手</a>
         <p class="hint" style="margin-top:8px;">※ Android 9.0 (API 28) 以上対応</p>
 
         <hr style="border:none;border-top:1px solid var(--border);margin:16px 0;" />
@@ -124,7 +124,7 @@
   </main>
 
   <footer>
-    <small>© 2026 精神保健福祉士 毎日3問トレーナー (msaitodev.com)</small>
+    <small>© 2026 運行管理者（貨物） 毎日3問トレーナー (msaitodev.com)</small>
   </footer>
 </body>
 </html>

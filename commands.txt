@@ -1,0 +1,17 @@
+■ページ作成
+node scripts/build-apps.js caregiver-humanmed
+node scripts/build-apps.js socialworker-humanmed
+node scripts/build-apps.js mentalhealth-socialworker-humanmed
+node scripts/build-apps.js healthsupervisor-humanmed
+node scripts/build-apps.js salesclerk-humanmed
+node scripts/build-apps.js cargo-opm-workpro
+node scripts/build-apps.js passenger-opm-workpro
+
+■links.html作成
+node scripts/build-links.js
+
+■ローカルサーバ起動
+firebase serve
+
+■デプロイ
+firebase deploy --only hosting
