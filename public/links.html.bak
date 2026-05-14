@@ -59,27 +59,12 @@
       transition: transform 0.1s ease, box-shadow 0.1s ease;
       box-shadow: 0 1px 2px rgba(0,0,0,0.05);
       border-left: 6px solid var(--brand);
+      text-align: left;
     }
-    .link-item:active {
-      transform: scale(0.98);
-      background-color: #f3f4f6;
-    }
-    .link-name {
-      display: block;
-      font-weight: 600;
-      font-size: 1rem;
-      margin-bottom: 2px;
-    }
-    .link-desc {
-      display: block;
-      font-size: 0.75rem;
-      color: var(--muted);
-      font-weight: normal;
-    }
-    /* JSで各アプリのカラーを適用するクラス */
-    .link-item-dynamic {
-      border-left-color: var(--app-color, var(--brand));
-    }
+    .link-item:active { transform: scale(0.98); background-color: #f3f4f6; }
+    .link-name { display: block; font-weight: 600; font-size: 1rem; margin-bottom: 2px; }
+    .link-desc { display: block; font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .link-item-dynamic { border-left-color: var(--app-color, var(--brand)); }
 
     .footer { margin-top: 48px; padding-bottom: 20px; }
     .footer nav { margin-bottom: 16px; }
@@ -96,13 +81,38 @@
     </header>
 
     <nav id="links-container" class="link-list">
-      <!-- JSにより apps.json から生成されます -->
+      <a href="/apps/caregiver-humanmed" class="link-item link-item-dynamic" style="--app-color: #4CAF50">
+        <span class="link-name">介護福祉士 毎日3問トレーナー</span>
+        <span class="link-desc">Google Playにて公開中</span>
+      </a>
+      <a href="/apps/socialworker-humanmed" class="link-item link-item-dynamic" style="--app-color: #1976D2">
+        <span class="link-name">社会福祉士 毎日3問トレーナー</span>
+        <span class="link-desc">Google Playにて公開中</span>
+      </a>
+      <a href="/apps/mentalhealth-socialworker-humanmed" class="link-item link-item-dynamic" style="--app-color: #EF6C00">
+        <span class="link-name">精神保健福祉士 毎日3問トレーナー</span>
+        <span class="link-desc">Google Playにて公開中</span>
+      </a>
+      <a href="/apps/healthsupervisor-humanmed" class="link-item link-item-dynamic" style="--app-color: #1A237E">
+        <span class="link-name">第一種衛生管理者 毎日3問トレーナー</span>
+        <span class="link-desc">Google Playにて公開中</span>
+      </a>
+      <a href="/apps/salesclerk-humanmed" class="link-item link-item-dynamic" style="--app-color: #005FB8">
+        <span class="link-name">登録販売者 毎日3問トレーナー</span>
+        <span class="link-desc">Google Playにて公開中</span>
+      </a>
+      <a href="/apps/cargo-opm-workpro" class="link-item link-item-dynamic" style="--app-color: #2E7D32">
+        <span class="link-name">運行管理者（貨物） 毎日3問トレーナー</span>
+        <span class="link-desc">Google Playにて公開中</span>
+      </a>
+      <a href="/apps/passenger-opm-workpro" class="link-item link-item-dynamic" style="--app-color: #880E4F">
+        <span class="link-name">運行管理者（旅客） 毎日3問トレーナー</span>
+        <span class="link-desc">Google Playにて公開中</span>
+      </a>
     </nav>
 
     <footer class="footer">
-      <nav>
-        <a href="/">公式サイトTOP</a>
-      </nav>
+      <nav><a href="/">公式サイトTOP</a></nav>
       <nav>
         <a href="/privacy-policy.html">プライバシーポリシー</a>
         <a href="/terms.html">利用規約</a>
@@ -110,23 +120,5 @@
       <p>© 2026 msaitodev</p>
     </footer>
   </div>
-
-  <script>
-    fetch('/apps.json')
-      .then(response => response.json())
-      .then(data => {
-        const container = document.getElementById('links-container');
-        container.innerHTML = data.map(app => `
-          <a href="${app.path}" class="link-item link-item-dynamic" style="--app-color: ${app.color || 'var(--brand)'}">
-            <span class="link-name">${app.name}</span>
-            ${app.desc ? `<span class="link-desc">${app.desc}</span>` : ''}
-          </a>
-        `).join('');
-      })
-      .catch(error => {
-        console.error('Error loading apps.json:', error);
-        document.getElementById('links-container').innerHTML = '<p>読み込みに失敗しました。</p>';
-      });
-  </script>
 </body>
 </html>

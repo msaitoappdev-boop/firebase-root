@@ -6,6 +6,7 @@ node scripts/build-apps.js healthsupervisor-humanmed
 node scripts/build-apps.js salesclerk-humanmed
 node scripts/build-apps.js cargo-opm-workpro
 node scripts/build-apps.js passenger-opm-workpro
+node scripts/build-apps.js ma-specialist-workpro
 
 ■links.html作成
 node scripts/build-links.js
