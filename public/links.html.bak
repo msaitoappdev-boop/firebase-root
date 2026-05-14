@@ -109,6 +109,10 @@
         <span class="link-name">運行管理者（旅客） 毎日3問トレーナー</span>
         <span class="link-desc">Google Playにて公開中</span>
       </a>
+      <a href="/apps/ma-specialist-workpro" class="link-item link-item-dynamic" style="--app-color: #009688">
+        <span class="link-name">中小M&A 毎日3問トレーナー</span>
+        <span class="link-desc">準備中</span>
+      </a>
     </nav>
 
     <footer class="footer">
