@@ -20,12 +20,12 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- Canonical -->
-  <link rel="canonical" href="https://msaitodev.com/apps/ma-specialist-workpro/" />
+  <link rel="canonical" href="https://msaitodev.com/apps/sme-ma-workpro/" />
 
   <!-- タブ用 -->
-  <link rel="icon" type="image/png" sizes="16x16" href="/apps/ma-specialist-workpro/icon-16.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/apps/ma-specialist-workpro/icon-32.png" />
-  <link rel="apple-touch-icon" href="/apps/ma-specialist-workpro/icon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/apps/sme-ma-workpro/icon-16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/apps/sme-ma-workpro/icon-32.png" />
+  <link rel="apple-touch-icon" href="/apps/sme-ma-workpro/icon-32.png" />
 
   <!-- PWAマニフェスト -->
   <link rel="manifest" href="/manifest.webmanifest" />
@@ -35,7 +35,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="中小M&A 毎日3問トレーナー | 厳選500問・学習分析機能" />
   <meta property="og:description" content="1日3問で無理なく継続。厳選500問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。" />
-  <meta property="og:url" content="https://msaitodev.com/apps/ma-specialist-workpro/" />
+  <meta property="og:url" content="https://msaitodev.com/apps/sme-ma-workpro/" />
   <meta property="og:image" content="https://msaitodev.com/ogp.png" />
 
   <!-- 構造化データ（FAQ完全版） -->
@@ -68,7 +68,7 @@
       <section class="card" aria-label="機能説明">
         <h2 class="section-title">このアプリでできること</h2>
         <ul class="features">
-          <li><span class="badge">厳選500問</span> 全5分野（中小M&Aの基礎知識／M&Aのの手続き・プロセス／法務・コンプライアンス／会計・税務・バリュエーション／PMI・事業承継の実務）を網羅。</li>
+          <li><span class="badge">厳選500問</span> 全5分野（中小M&Aの基礎知識／M&Aの手続き・プロセス／法務・コンプライアンス／会計・税務・バリュエーション／PMI・事業承継の実務）を網羅。</li>
           <li><span class="badge">学習分析</span> レーダーチャートで弱点を可視化。本試験の推定スコアを算出。</li>
           <li><span class="badge">弱点特訓モード</span> 過去の間違いをAIが分析し、重点的に復習。効率的な知識定着をサポート。</li>
           <li><span class="badge">集中できる環境</span> 学習画面にバナー広告は一切なし。プレミアムプランなら広告は完全非表示。</li>
@@ -108,7 +108,9 @@
           <li><a href="/privacy-policy.html">プライバシーポリシー</a></li>
         </ul>
 
-        <a class="btn" href="https://play.google.com/store/apps/details?id=com.msaitodev.ma.specialist.workpro&referrer=utm_source%3Dmsaitodev_hub%26utm_medium%3Dweb_button">Google Play で入手</a>
+        <!--
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.msaitodev.sme.ma.workpro&referrer=utm_source%3Dmsaitodev_hub%26utm_medium%3Dweb_button">Google Play で入手</a>
+        -->
         <p class="hint" style="margin-top:8px;">※ Android 9.0 (API 28) 以上対応</p>
 
         <hr style="border:none;border-top:1px solid var(--border);margin:16px 0;" />
