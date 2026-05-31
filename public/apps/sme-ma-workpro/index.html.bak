@@ -68,7 +68,7 @@
       <section class="card" aria-label="機能説明">
         <h2 class="section-title">このアプリでできること</h2>
         <ul class="features">
-          <li><span class="badge">厳選500問</span> 全5分野（中小M&Aの基礎知識／M&Aの手続き・プロセス／法務・コンプライアンス／会計・税務・バリュエーション／PMI・事業承継の実務）を網羅。</li>
+          <li><span class="badge">厳選500問</span> 全5分野（中小M&A実務／倫理・行動規範／財務・税務／法務／総合問題）を網羅。</li>
           <li><span class="badge">学習分析</span> レーダーチャートで弱点を可視化。本試験の推定スコアを算出。</li>
           <li><span class="badge">弱点特訓モード</span> 過去の間違いをAIが分析し、重点的に復習。効率的な知識定着をサポート。</li>
           <li><span class="badge">集中できる環境</span> 学習画面にバナー広告は一切なし。プレミアムプランなら広告は完全非表示。</li>
@@ -108,9 +108,7 @@
           <li><a href="/privacy-policy.html">プライバシーポリシー</a></li>
         </ul>
 
-        <!--
         <a class="btn" href="https://play.google.com/store/apps/details?id=com.msaitodev.sme.ma.workpro&referrer=utm_source%3Dmsaitodev_hub%26utm_medium%3Dweb_button">Google Play で入手</a>
-        -->
         <p class="hint" style="margin-top:8px;">※ Android 9.0 (API 28) 以上対応</p>
 
         <hr style="border:none;border-top:1px solid var(--border);margin:16px 0;" />
