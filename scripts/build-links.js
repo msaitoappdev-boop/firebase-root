@@ -38,9 +38,10 @@ const template = loadTemplate(templatePath);
 const linksHtml = apps.map(app => {
   const color = app.color || '#0b7';
   const descHtml = app.desc ? `<span class="link-desc">${app.desc}</span>` : '';
+  const linkHref = app.path.endsWith('/') ? app.path : `${app.path}/`;
   
   // インデントを揃えるためにあえてテンプレートリテラル内の空白を調整しています
-  return `      <a href="${app.path}" class="link-item link-item-dynamic" style="--app-color: ${color}">
+  return `      <a href="${linkHref}" class="link-item link-item-dynamic" style="--app-color: ${color}">
         <span class="link-name">${app.name}</span>
         ${descHtml}
       </a>`;
