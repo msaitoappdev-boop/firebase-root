@@ -33,8 +33,8 @@
 
   <!-- OGP -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="中小M&A 毎日3問トレーナー | 厳選500問・学習分析機能" />
-  <meta property="og:description" content="1日3問で無理なく継続。厳選500問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。" />
+  <meta property="og:title" content="中小M&A 毎日3問トレーナー | 厳選700問・学習分析機能" />
+  <meta property="og:description" content="1日3問で無理なく継続。厳選700問と高度な学習分析・弱点特訓機能を搭載。月額¥200・いつでも解約OK。" />
   <meta property="og:url" content="https://msaitodev.com/apps/sme-ma-workpro/" />
   <meta property="og:image" content="https://msaitodev.com/ogp.png" />
 
@@ -68,7 +68,7 @@
       <section class="card" aria-label="機能説明">
         <h2 class="section-title">このアプリでできること</h2>
         <ul class="features">
-          <li><span class="badge">厳選500問</span> 全5分野（M&A実務／倫理・行動規範／財務・税務／法務／総合問題）を網羅。</li>
+          <li><span class="badge">厳選700問</span> 全5分野（M&A実務／倫理・行動規範／財務・税務／法務／総合問題）を網羅。</li>
           <li><span class="badge">学習分析</span> レーダーチャートで弱点を可視化。本試験の推定スコアを算出。</li>
           <li><span class="badge">弱点特訓モード</span> 過去の間違いをAIが分析し、重点的に復習。効率的な知識定着をサポート。</li>
           <li><span class="badge">集中できる環境</span> 学習画面にバナー広告は一切なし。プレミアムプランなら広告は完全非表示。</li>
@@ -94,8 +94,7 @@
         <details><summary>無料ユーザーでも使えますか？</summary><p>はい。1日1セット（3問）の学習と、全期間のスコア履歴が無料で利用可能です。動画視聴によりセット数を増やすこともできます。</p></details>
         <details><summary>プレミアムプラン（月額¥200）のメリットは？</summary><p>1日最大10セット（30問）の演習、解説の全文表示、広告の完全非表示に加え、高度な「学習分析」「弱点特訓」がすべて使い放題になります。<br/>スキマ時間に毎日コツコツ学習したい方に最適です。</p></details>
         <details><summary>プレミアムプラン（一括¥1,480）のメリットは？</summary><p>回数無制限の演習、解説の全文表示、広告の完全非表示に加え、高度な「学習分析」「弱点特訓」がすべて使い放題になります。<br/>短期間で効率的に集中学習したい方に最適です。</p></details>
-        <details><summary>解約はいつでもできますか？</summary><p>いつでも解約可能です。Google Playストアの「定期購入の管理」から手続きいただけます。解約後も有効期間終了まではプレミアム機能をご利用いただけます。</p></details>
-        <details><summary>1セットの問題数は変更できますか？</summary><p>現在は習慣化に最適な「1セット3問」に固定されています。今後のアップデートで、学習スタイルに合わせたカスタマイズ機能を検討中です。</p></details>
+        <details><summary>解約はいつでもできますか？</summary><p>月額プランについては、いつでも解約可能です。Google Playストアの「定期購入の管理」から手続きいただけます。解約後も有効期間終了まではプレミアム機能をご利用いただけます。</p></details>
         <details><summary>なぜ無料ではないのですか？</summary><p>高品質な問題の維持・追加、および学習を妨げない広告なしのUIを提供し続けるためです。コーヒー1杯分以下の月額料金で、合格を強力にサポートします。</p></details>
         <details><summary>返金や値上げはありますか？</summary><p>返金はGoogle Playの規約に基づきます。価格改定の際は事前に十分に告知し、ユーザー様の納得感を最優先します。</p></details>
       </section>
@@ -104,7 +103,7 @@
         <h2 class="section-title">料金</h2>
         <p class="price">月額¥200（税込）or<br/>一括¥1,480（税込）</p>
         <ul class="features">
-          <li>厳選500問・全機能解放</li>
+          <li>厳選700問・全機能解放</li>
           <li>追加課金なし／解約自由</li>
           <li><a href="/privacy-policy.html">プライバシーポリシー</a></li>
         </ul>
